@@ -1,0 +1,89 @@
+.graphe{
+    border: 2px solid red;
+    max-width: 1440px;
+    width: 70%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 15rem );
+    justify-content:space-around;
+}
+.positif{
+    border: 2px solid blue;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 5%;
+    background-color:  #1898A8;
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.negatif{
+    border: 2px solid green;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 5%;
+    background-color: white;
+    position: relative;
+}
+
+/*########################## les cercles d'analyse positive ##############################*/
+.ap1{
+    
+    stroke: #73d5e7 ;
+    fill: none;
+    stroke-width: 10px;
+    stroke-dasharray: 350;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+.ap2{
+    fill: none;
+    stroke: white;
+    stroke-width: 10px;
+    transform: translate(5px,5px);
+    stroke-dasharray: 300;
+    stroke-linecap: round;
+}
+
+.pourcentage1{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    left: 7rem;
+    top: 13rem;
+    
+}
+
+.pourcentage2{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    left: 45%;
+    top: 65%;
+}
+    
+
+     /*####################### les cercles d'analyse négative ##############################*/
+
+     .an1{
+        fill: none;
+        stroke: #73d5e7;
+        stroke-width: 10px;
+        transform: translate(5px, 5px);
+        stroke-dasharray: 350;
+        stroke-linecap: round;
+     }
+
+    .an2{
+        fill: none;
+        stroke: #1898A8;
+        stroke-width: 10px;
+        stroke-linecap: round;
+        transform: translate(5px, 5px);
+        stroke-dasharray: 220; 
+    }
+
